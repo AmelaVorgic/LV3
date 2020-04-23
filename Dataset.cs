@@ -68,3 +68,5 @@ namespace LV3
         }
     }
 }
+
+//potrebno je duboko kopiranje
