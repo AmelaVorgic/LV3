@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LV3
 {
     public enum Category { ERROR, ALERT, INFO }
-    class ConsoleNotification
+    class ConsoleNotification : Prototype
     {
         public string Author { get; private set; }
         public string Title { get; private set; }

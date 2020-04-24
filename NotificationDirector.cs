@@ -13,7 +13,7 @@ namespace LV3
 
             NotificationBuilder note = new NotificationBuilder();
             note.SetAuthor(author);
-            note.SetTitle("title");
+            note.SetTitle("Informations!");
             note.SetLevel(Category.INFO);
             note.SetColor(ConsoleColor.Green);
             note.SetText("Content");
@@ -26,7 +26,7 @@ namespace LV3
 
             NotificationBuilder note = new NotificationBuilder();
             note.SetAuthor(author);
-            note.SetTitle("title");
+            note.SetTitle("Error!");
             note.SetLevel(Category.ERROR);
             note.SetColor(ConsoleColor.White);
             note.SetText("Content");
@@ -39,7 +39,7 @@ namespace LV3
 
             NotificationBuilder note = new NotificationBuilder();
             note.SetAuthor(author);
-            note.SetTitle("title");
+            note.SetTitle("Alert!");
             note.SetLevel(Category.ALERT);
             note.SetColor(ConsoleColor.Red);
             note.SetText("Content");
