@@ -33,9 +33,9 @@ namespace LV3
             manager.Display(notification);
             NotificationDirector director = new NotificationDirector();
 
-            ConsoleNotification first = director.CreateERRORNotification("Owner");
-            ConsoleNotification second = director.CreateINFONotification("Owner");
-            ConsoleNotification third = director.CreateALERTNotification("Owner");
+            ConsoleNotification Message = director.CreateERRORNotification("Owner");
+            ConsoleNotification Notification = director.CreateINFONotification("Owner");
+            ConsoleNotification Warning = director.CreateALERTNotification("Owner");
 
         }
         public static void CreateCsv(string ID, string name, string age, string filepath)
