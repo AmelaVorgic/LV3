@@ -27,3 +27,5 @@ namespace LV3
         }
     }
 }
+
+//7.zadatak - Funkcionalno nema razlike između plitkog i dubokog kopiranja, svakako se objekt te klase ne može mijenjati, setteri su private
